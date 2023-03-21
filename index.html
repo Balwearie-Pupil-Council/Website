@@ -1,12 +1,50 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" type="text/css" href="styles.css">
     </head>
 
-    <body>
+    <body onclick="showCoords(event)">
+        <header>
+            <div><h1>Welcome To Balwearie Pupil Coucnil</h1></div>
+            <img class="imageBanner" src="BPC Logo 400px.png" alt="Pupil Council Logo">
+        </header>
 
+        <nav>
+            <ul>
+                <li><a href="index.html">Home Page</a></li>
+                <li><a href="Whoweare.html">Who Are We</a></li>
+                <li><a href="Achievments.html">Achievements</a></li>
+                <li><a href="History.html">Our History</a></li>
+                <li><a href="otherclubs.html">Other Clubs</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section>Introduction to the page</section>
+            <section id="Left">This is the section on the left</section>
+            <section id="Right">This is the section on the right</section>
+
+            
+            <img src="logo.png" style="width: 200px;height: 200px;" usemap="#mapa">
+
+            <map name="mapa">
+                <area shape="poly" coords="61,20,99,42,61,66" onclick="clicked()">
+            </map>
+
+        </main>
+
+        <footer>
+            <p>&copy Balwearie Pupil Council 2023<br>Brought to you by Plimer Wilson Productions <b>{Not a real company}</b></p>
+        </footer>
     </body>
 
-    <script></script>
+    <script src="script.js"></script> 
+    <script>
+        function clicked() {
+            console.log("Clicked")
+            alert("You clicked the magic button!!!")
+        }
+    </script>
 </html>
+

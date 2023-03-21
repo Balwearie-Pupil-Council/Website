@@ -1,0 +1,116 @@
+header, footer{background-color: #173088;}
+nav, div{background-color: #1121A4;}
+main{background-color: #e6e6e6;}
+/*section{background-color: #d01616;}*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cascadia Code', sans-serif;
+}
+
+h1, h2 {
+    color: #e6e6e6;
+    float: right;
+}
+
+header, section, footer {
+    padding: 5px;
+}
+
+body {
+    width: 1500px;
+}
+
+.imageBanner {
+    width: auto;
+    height: 100px;
+}
+
+header {
+    height: 100px;
+}
+
+footer {
+    height: 60px;
+    color: #e6e6e6;
+    text-align: center;
+}
+
+nav {
+    height: 38px;
+}
+
+nav, main, footer {
+    margin-top: 5px;
+}
+
+main{
+    display: inline-block;
+    clear: both
+}
+
+section {
+    margin: 5px;
+}
+
+body {
+    margin: auto;
+}
+
+/*  - Navigation Bar - */
+
+nav ul {
+    list-style-type: none;
+}
+
+a {
+    color: #e6e6e6;
+}
+
+nav ul li {
+    float: left;
+    width: 120px;
+    text-align: center;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #e6e6e6;
+    color: #1121A4;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+#Left {
+    float:left;
+    width: 400px;
+}
+
+#Right {
+    float: right;
+    width: 350px;
+}
+header, nav, footer {
+    display: block;
+    clear: both;
+}
+
+main ul li {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    list-style: square;
+    list-style-type: none;
+    list-style-image: url('listIcon.png');
+}
+
+header h1 {
+    padding-right: 10px;
+    padding-top: 10px;
+}
